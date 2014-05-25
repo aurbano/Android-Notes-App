@@ -1,8 +1,10 @@
-package com.example.uninote;
+package es.urbanoalvarez.uninote;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import com.example.uninote.R;
 
 import android.app.Activity;
 import android.content.Intent;

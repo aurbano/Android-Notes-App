@@ -1,6 +1,8 @@
-package com.example.uninote;
+package es.urbanoalvarez.uninote;
 
 import java.io.OutputStreamWriter;
+
+import com.example.uninote.R;
 
 import android.app.Activity;
 import android.content.Intent;
