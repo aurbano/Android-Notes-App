@@ -1,4 +1,4 @@
-Android-Notes-App
+Android Notes
 =================
 
 A very simple Android app to create and manage notes.
