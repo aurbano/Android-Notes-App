@@ -2,8 +2,7 @@ package es.urbanoalvarez.uninote;
 
 import java.io.OutputStreamWriter;
 
-import com.example.uninote.R;
-
+import es.urbanoalvarez.uninote.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

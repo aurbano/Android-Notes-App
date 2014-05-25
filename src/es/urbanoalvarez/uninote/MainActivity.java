@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import com.example.uninote.R;
-
+import es.urbanoalvarez.uninote.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

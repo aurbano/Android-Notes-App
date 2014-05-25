@@ -1,11 +1,11 @@
 package es.urbanoalvarez.uninote;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import com.example.uninote.R;
-
+import es.urbanoalvarez.uninote.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -91,6 +91,14 @@ public class NoteActivity extends Activity {
 			case R.id.action_back:
 				// Back to main
 				finish();
+				break;
+			case R.id.action_delete:
+				if(getApplicationContext().deleteFile(name+".txt")){
+					Toast.makeText(this, "Nota eliminada", Toast.LENGTH_LONG).show();
+					finish();
+				}else{
+					Toast.makeText(this, "No se ha podido eliminar", Toast.LENGTH_LONG).show();
+				}
 				break;
 		}
 		return super.onOptionsItemSelected(item);
