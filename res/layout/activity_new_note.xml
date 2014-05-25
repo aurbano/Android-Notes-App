@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/newnote_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="Titulo..."
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/newnote_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newnote_title"
+        android:hint="Contenido..."
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:scrollHorizontally="true"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>
